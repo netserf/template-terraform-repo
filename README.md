@@ -1,8 +1,7 @@
 # template-terraform-repo
 
 [![Actions Status](https://github.com/netserf/template-terraform-repo/workflows/Terraform%20Lint/badge.svg)](https://github.com/netserf/template-terraform-repo/actions)
-[![Actions Status](https://github.com/netserf/template-terraform-repo/workflows/Markdown%20Lint/badge.svg)](https://github.com/netserf/template-terraform-repo/actions)
-[![Actions Status](https://github.com/netserf/template-terraform-repo/workflows/Markdown%20Links/badge.svg)](https://github.com/netserf/template-terraform-repo/actions)
+[![Actions Status](https://github.com/netserf/template-terraform-repo/workflows/Docs/badge.svg)](https://github.com/netserf/template-terraform-repo/actions)
 
 Template repo for a Terraform build project.
 
