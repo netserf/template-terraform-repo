@@ -1,18 +1,10 @@
 name: Terraform Lint
 
-on:
-  pull_request:
-    branches: [main]
-    types: [opened, synchronize, closed]
-  push:
-    branches-ignore: [main]
+on: [push, workflow_dispatch]
 
 jobs:
   tflint:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         name: Checkout source code
