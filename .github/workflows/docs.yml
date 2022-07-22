@@ -1,6 +1,10 @@
 name: Docs
 
-on: [push, workflow_dispatch]
+on:
+  pull_request:
+    types: [opened, reopened]
+  push:
+    branches: [main]
 
 jobs:
   markdown-lint:
